@@ -1,0 +1,10 @@
+// Kelvin should be constant 
+const kelvin = 272;
+// Celsius is almost 273 degrees less than Kelvin
+let celsius = kelvin - 273;
+// This is equation to calculate Fahrenheit
+let fahrenheit = celsius * (9/5) + 32;
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+// This is equation to calculate Newton
+let newton = celsius * (33/100)
+console.log(`The temperature is ${newton} degress Newton.`);
